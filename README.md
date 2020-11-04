@@ -1,4 +1,4 @@
-# Facial-expression-detection using Keras(CNN)
+# Facial-expression-detection using Deep Learning
 
 Run main.py file which contains the flask app. And then navigate to web browser and type the http://localhost:5000 to get the real time output.
 
