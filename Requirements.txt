@@ -1,0 +1,4 @@
+flask~=1.1.2
+numpy~=1.19.2
+tensorflow~=1.14.0
+opencv-python~=4.4.0.46
