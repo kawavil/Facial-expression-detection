@@ -11,7 +11,6 @@ set_session(session)
 
 
 class FacialExpressionModel(object):
-
     EMOTIONS_LIST = ["Angry", "Disgust",
                      "Fear", "Happy",
                      "Neutral", "Sad",
@@ -25,8 +24,8 @@ class FacialExpressionModel(object):
 
         # load weights into the new model
         self.loaded_model.load_weights(model_weights_file)
-        #self.loaded_model.compile()
-        #self.loaded_model._make_predict_function()
+        # self.loaded_model.compile()
+        # self.loaded_model._make_predict_function()
 
     def predict_emotion(self, img):
         global session
